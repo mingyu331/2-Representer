@@ -8,4 +8,4 @@ for (let i = 0; i < num; i++) {
     numbers.push(min + Math.floor((max - min) * Math.random()));
 }
 
-fs.writeFileSync(".\\representer\\numbers.txt", JSON.stringify(numbers));
+fs.writeFileSync(".\\representer\\numbers.json", JSON.stringify(numbers));
